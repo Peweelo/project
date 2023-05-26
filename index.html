@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pl">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet" />
+
+		<script src="https://kit.fontawesome.com/1894e22697.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="./css/style.min.css" />
+	</head>
+	<body>
+		<nav class="nav">
+			<div class="nav-container wrapper">
+				<ul class="nav-container-links">
+					<li class="nav-container-links-link logo"><img src="./img/logo.svg" alt="Logo" /></li>
+					<li><a class="nav-container-links-link" href="#">Features</a></li>
+					<li><a class="nav-container-links-link" href="#">Pricing</a></li>
+					<li><a class="nav-container-links-link" href="#">Resources</a></li>
+				</ul>
+
+				<div class="nav-container-buttons">
+					<p class="nav-container-buttons-login">Login</p>
+					<button class="nav-container-buttons-signup">Sign Up</button>
+					<i class="fa-solid fa-bars hamburger-icon nav-container-buttons burger"></i>
+				</div>
+			</div>
+
+			<!-- dropdown -->
+
+			<div class="dropdown wrapper animation">
+				<div class="dropdown-container wrapper">
+					<ul class="dropdown-container-links">
+						<li class="dropdown-container-links-link">Features</li>
+						<li class="dropdown-container-links-link">Pricing</li>
+						<li class="dropdown-container-links-link">Resources</li>
+					</ul>
+
+					<div class="dropdown-container-buttons">
+						<p class="dropdown-container-buttons-login">Login</p>
+						<button class="dropdown-container-buttons-signup">Sign Up</button>
+					</div>
+				</div>
+			</div>
+		</nav>
+
+		<main>
+			<section class="main wrapper">
+				<div class="main-container">
+					<div class="main-container-texts">
+						<h1 class="main-container-texts-title">More than just shorter links</h1>
+						<p class="main-container-texts-desc">
+							Build your brand's recognition and get detailed insights on how your links are performing.
+						</p>
+						<button class="main-container-texts-button">Get Started</button>
+					</div>
+					<div class="main-container-img">
+						<img src="./img/illustration-working.svg" alt="Person working on computer" />
+					</div>
+				</div>
+
+				<div class="main-shorter">
+					<div class="main-shorter-container">
+						<input id="link" type="text" placeholder="Shorten a link here..." />
+						<button class="ShortenBtn">Shorten It!</button>
+					</div>
+				</div>
+				<div class="main-shorter-links"></div>
+			</section>
+			<section class="statistics wrapper">
+				<h2 class="statistics-header">Advanced statistics</h2>
+				<p class="statistics-paragraph">
+					Track how your links are performing across the web with our advanced statistics dashboard.
+				</p>
+
+				<div class="statistics-container">
+					<div class="statistics-container-card">
+						<img
+							src="./img/icon-brand-recognition.svg"
+							alt="Brand Recognition Icon"
+							class="statistics-container-card-icon" />
+						<h3 class="statistics-container-card-header">Brand Recognition</h3>
+						<p class="statistics-container-card-desc">
+							Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
+							confidence in your content.
+						</p>
+					</div>
+					<div class="statistics-container-card">
+						<img
+							src="./img/icon-detailed-records.svg"
+							alt="detailed-records Icon"
+							class="statistics-container-card-icon" />
+						<h3 class="statistics-container-card-header">Detailed Records</h3>
+						<p class="statistics-container-card-desc">
+							ain insights into who is clicking your links. Knowing when and where people engage with your content helps
+							inform better decisions.
+						</p>
+					</div>
+					<div class="statistics-container-card">
+						<img
+							src="./img/icon-fully-customizable.svg"
+							alt="fully-customizable Icon"
+							class="statistics-container-card-icon" />
+						<h3 class="statistics-container-card-header">Fully Customizable</h3>
+						<p class="statistics-container-card-desc">
+							Improve brand awareness and content discoverability through customizable links, supercharging audience
+							engagement.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="getstarted">
+				<h4 class="getstarted-header">Boost your link today</h4>
+				<button class="getstarted-button">Get Started</button>
+			</section>
+		</main>
+
+		<footer>
+			<div class="container wrapper">
+				<div class="container-logo">
+					<img src="./img/logo.svg" alt="Logo" />
+				</div>
+				<div class="container-links">
+					<h5 class="container-links-header">Features</h5>
+					<p class="container-links-link">Link Shortening</p>
+					<p class="container-links-link">Branded Links</p>
+					<p class="container-links-link">Analystic</p>
+				</div>
+				<div class="container-links">
+					<h5 class="container-links-header">Resources</h5>
+					<p class="container-links-link">Blog</p>
+					<p class="container-links-link">Developers</p>
+					<p class="container-links-link">Support</p>
+				</div>
+				<div class="container-links">
+					<h5 class="container-links-header">Company</h5>
+					<p class="container-links-link">About</p>
+					<p class="container-links-link">Our Team</p>
+					<p class="container-links-link">Careers</p>
+					<p class="container-links-link">Contact</p>
+				</div>
+
+				<div class="container-social">
+					<img src="./img/icon-facebook.svg" alt="Facebook Icon" />
+					<img src="./img/icon-twitter.svg" alt="Twitter Icon" />
+					<img src="./img/icon-pinterest.svg" alt="Pinteres Icon" />
+					<img src="./img/icon-instagram.svg" alt="Instagram Icon" />
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/main.js"></script>
+	</body>
+</html>
